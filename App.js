@@ -14,22 +14,32 @@ export default function App() {
   return (
     <NavigationContainer>
       <SafeAreaView style={styles.container}>
-        <StatusBar style="auto" />
+        <StatusBar 
+          style="auto"
+        />
         <Drawer.Navigator 
           initialRouteName="Home"
           drawerContentOptions={{
             activeTintColor: 'black',
             activeBackgroundColor: 'white',
+            labelStyle: {
+              fontWeight: 'bold',
+              fontSize: 20,
+              color: 'black'
+            }
           }}
         >
-          <Drawer.Screen name="Home" component={HomeScreen} />
+          <Drawer.Screen 
+            name="Home" 
+            component={HomeScreen}
+          />
           <Drawer.Screen 
             name="CategorySelection" 
             component={CategorySelection}
             options={{
               drawerLabel: () => null,
               title: null,
-              drawerIcon: () => null
+              drawerIcon: () => null,
             }}
           />
           <Drawer.Screen 
