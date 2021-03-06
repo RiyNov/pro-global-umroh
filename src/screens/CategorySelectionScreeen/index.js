@@ -1,0 +1,18 @@
+import React from 'react';
+import { StyleSheet, View } from 'react-native';
+import Header from '../../components/Header';
+
+export default function CategorySelection({navigation}) {
+  return (
+    <View style={styles.container}>
+        <Header navigation={navigation} title={'Category Selection'}/>
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+      flexGrow: 1,
+      backgroundColor: 'white',
+  },
+});
