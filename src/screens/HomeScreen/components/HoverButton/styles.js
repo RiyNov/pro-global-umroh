@@ -4,17 +4,17 @@ const styles = StyleSheet.create({
     container: {
         width: 60,
         height: 60,
-        borderRadius: 35,
-        backgroundColor: '#128C7E',
+        borderRadius: 30,
+        // backgroundColor: '#128C7E',
         justifyContent: 'center',
         alignItems: 'center',
         position: 'absolute',
-        bottom: 20,
-        right: 20,
+        bottom: 25,
+        right: 25,
         shadowColor: "#000",
         shadowColor: "#000",
         shadowOffset: {
-            width: 0,
+            width: 1,
             height: 2,
         },
         shadowOpacity: 0.23,
@@ -23,8 +23,8 @@ const styles = StyleSheet.create({
         elevation: 4,
     },
     icon: {
-        height: 40,
-        width: 40,
+        height: 70,
+        width: 70,
     }
 })
 
