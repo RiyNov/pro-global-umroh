@@ -18,7 +18,12 @@
     ],
     "ios": {
       "bundleIdentifier": "com.proglobal.proglobalumroh",
-      "buildNumber": "1.0.0"
+      "buildNumber": "1.0.0",
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "location"
+        ]
+      }
     },
     "android": {    
       "package": "com.proglobal.proglobalumroh",
